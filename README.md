@@ -53,7 +53,7 @@ Inventory ||--o{ Product : has
 * customer_id: Links to the customer making the purchase (Foreign Key). 
 * quantity: Number of units sold in the transaction. 
 *total_amount: Total revenue from the sale. 
-* _Significance_: The Sale entity is crucial for tracking revenue, looking at sales trends, and analyzing customer purchasing habits.
+* **Significance**: The Sale entity is crucial for tracking revenue, looking at sales trends, and analyzing customer purchasing habits.
 ### 4. Inventory 
 * product_id: Unique identifier for each shoe model (Primary Key and Foreign Key).
 * stock_level: Current stock of product. 
