@@ -39,13 +39,13 @@ Inventory ||--o{ Product : has
 * name: Name of the shoe model. 
 * size: Size of shoe.
 * price: Price of the shoe. 
-* _Significance_: The Product entity helps track what is available to sell and manages pricing and stock levels. 
+* **Significance**: The Product entity helps track what is available to sell and manages pricing and stock levels. 
 ### 2. Customer 
 * customer_id: Unique identifier for each customer (Primary Key). 
 * name: Name of customer.
 * email: Email to communicate with customer. 
 * phone: Phone number to communicate with customer. 
-* _Significance_: The Customer entity makes sure to have good customer management and great customer service. 
+* **Significance**: The Customer entity makes sure to have good customer management and great customer service. 
 ### 3. Sale 
 * sale_id: Unique identifier for each sale transaction (Primary Key).
 * sale_date: Date of when the sale happened.
@@ -57,7 +57,7 @@ Inventory ||--o{ Product : has
 ### 4. Inventory 
 * product_id: Unique identifier for each shoe model (Primary Key and Foreign Key).
 * stock_level: Current stock of product. 
-* _Significance_: The Inventory entity is crucial for stock management and ensuring the store can meet customer demands without being overstocked or understocked. 
+* **Significance**: The Inventory entity is crucial for stock management and ensuring the store can meet customer demands without being overstocked or understocked. 
 
 ## Relationship Descriptions 
 * Product to Sale: This is a one to many relationship. One product can be sold in multiple transactions. Which helps track how often products are purchased to inform how much is needed. 
