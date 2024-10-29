@@ -31,7 +31,7 @@ erDiagram
 Product ||--o{ Sale : sells
 Customer ||--o{ Sale : makes
 Inventory ||--o{ Product : has
-[End]
+end 
 
 ## Entity Descriptions 
 ### 1. Product 
