@@ -31,7 +31,7 @@ erDiagram
 Product ||--o{ Sale : sells
 Customer ||--o{ Sale : makes
 Inventory ||--o{ Product : has
-
+EOF 
 ## Entity Descriptions 
 ### 1. Product 
 	* product_id: Unique identifier for each shoe model (Primary Key).
