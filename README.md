@@ -13,7 +13,7 @@ erDiagram
     sting customer_id PK "Unique identifier for each customer"
     string name "Name of customer"
     string email "email of customer"
-    string pone "phone number of customer" 
+    string phone "phone number of customer" 
     } 
     Sale {
     string sale_id PK "Unique identifier for each sale transaction"
